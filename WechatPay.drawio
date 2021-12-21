@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-21T14:06:53.283Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="HBJuIb-kW0DdkfNO15pq" version="16.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-21T14:08:08.841Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="VzmmCBp9l9rORcrTb9eo" version="16.0.0" type="github">
   <diagram id="8AyKx_o5aTShNxiJ5CQn" name="Page-1">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -133,7 +133,7 @@
         <mxCell id="OW42SGyRE-5bfpf_GYGi-49" value="已支付" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" parent="1" vertex="1">
           <mxGeometry x="783" y="1450" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OW42SGyRE-5bfpf_GYGi-50" value="" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#0e8088;rounded=1;sketch=0;" parent="1" vertex="1">
+        <mxCell id="OW42SGyRE-5bfpf_GYGi-50" value="根据商户id和商户私钥签名器，初始化微信支付证书对象" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#0e8088;rounded=1;sketch=0;" parent="1" vertex="1">
           <mxGeometry x="200" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OW42SGyRE-5bfpf_GYGi-54" value="支付通知回调地址" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;fillColor=none;" parent="1" vertex="1">
