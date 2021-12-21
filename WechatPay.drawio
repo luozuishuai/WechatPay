@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-21T14:46:01.704Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="HOLriIPpXBC5efSYywck" version="16.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-21T14:51:27.967Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="yKUjb_aJDPjeAQt57FKG" version="16.0.0" type="github">
   <diagram id="8AyKx_o5aTShNxiJ5CQn" name="Page-1">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -314,8 +314,65 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="kbgixOK9FR3y2_w2pbTC-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kbgixOK9FR3y2_w2pbTC-60" target="kbgixOK9FR3y2_w2pbTC-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kbgixOK9FR3y2_w2pbTC-60" value="定时任务，每隔30秒触发一次" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1210" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kbgixOK9FR3y2_w2pbTC-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kbgixOK9FR3y2_w2pbTC-61" target="kbgixOK9FR3y2_w2pbTC-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kbgixOK9FR3y2_w2pbTC-61" value="查询创建时间为当前时间的5分钟以前，并且状态为&#39;未付款&#39;的所有订单" style="whiteSpace=wrap;html=1;fillColor=none;rounded=1;shadow=0;glass=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kbgixOK9FR3y2_w2pbTC-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kbgixOK9FR3y2_w2pbTC-63" target="kbgixOK9FR3y2_w2pbTC-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kbgixOK9FR3y2_w2pbTC-63" value="调用微信支付平台查单接口，传入订单号" style="whiteSpace=wrap;html=1;fillColor=none;rounded=1;shadow=0;glass=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kbgixOK9FR3y2_w2pbTC-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kbgixOK9FR3y2_w2pbTC-65" target="kbgixOK9FR3y2_w2pbTC-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kbgixOK9FR3y2_w2pbTC-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kbgixOK9FR3y2_w2pbTC-65" target="kbgixOK9FR3y2_w2pbTC-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kbgixOK9FR3y2_w2pbTC-65" value="查询订单是否已支付" style="rhombus;whiteSpace=wrap;html=1;fillColor=#b0e3e6;rounded=1;shadow=0;glass=0;sketch=1;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="1207.5" y="420" width="125" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="kbgixOK9FR3y2_w2pbTC-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kbgixOK9FR3y2_w2pbTC-67" target="kbgixOK9FR3y2_w2pbTC-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kbgixOK9FR3y2_w2pbTC-67" value="将订单状态改为‘已超时关闭’" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;rounded=1;shadow=0;glass=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="657.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kbgixOK9FR3y2_w2pbTC-69" value="未支付" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="580" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kbgixOK9FR3y2_w2pbTC-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kbgixOK9FR3y2_w2pbTC-70" target="kbgixOK9FR3y2_w2pbTC-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kbgixOK9FR3y2_w2pbTC-70" value="可能是未正确收到微信发送的支付通知" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;rounded=1;shadow=0;glass=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1415" y="452.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kbgixOK9FR3y2_w2pbTC-72" value="已支付" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kbgixOK9FR3y2_w2pbTC-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kbgixOK9FR3y2_w2pbTC-73" target="kbgixOK9FR3y2_w2pbTC-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kbgixOK9FR3y2_w2pbTC-73" value="将订单状态修改为‘已支付’" style="whiteSpace=wrap;html=1;fillColor=none;rounded=1;shadow=0;glass=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1415" y="592.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kbgixOK9FR3y2_w2pbTC-75" value="记录付款日志" style="whiteSpace=wrap;html=1;fillColor=none;rounded=1;shadow=0;glass=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1415" y="732.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kbgixOK9FR3y2_w2pbTC-77" value="向微信发送关闭订单请求，传入订单号" style="whiteSpace=wrap;html=1;fillColor=none;rounded=1;shadow=0;glass=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="797.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kbgixOK9FR3y2_w2pbTC-79" value="关闭微信支付平台订单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="745" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
