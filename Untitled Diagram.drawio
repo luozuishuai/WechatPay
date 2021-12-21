@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-21T06:26:25.342Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="bnGPrk67BRcCs3UsDTzV" version="16.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-21T06:30:31.609Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="STXlbbh2sqYYSu-lj8mP" version="16.0.0" type="github">
   <diagram id="xzRYanrj3bcwOv79dh38" name="Page-1">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,7 +28,7 @@
         <mxCell id="HXkfugz9PC36M4biD1gU-9" value="验证通过" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="330" y="260" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HXkfugz9PC36M4biD1gU-10" value="抛出异常" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="HXkfugz9PC36M4biD1gU-10" value="抛出异常" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;fillStyle=auto;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
           <mxGeometry x="450" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HXkfugz9PC36M4biD1gU-12" value="验证失败" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -58,7 +58,7 @@
         <mxCell id="HXkfugz9PC36M4biD1gU-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HXkfugz9PC36M4biD1gU-24" target="HXkfugz9PC36M4biD1gU-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HXkfugz9PC36M4biD1gU-24" value="更新订单状态为支付成功" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="HXkfugz9PC36M4biD1gU-24" value="更新订单状态为支付成功" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
           <mxGeometry x="270" y="800" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HXkfugz9PC36M4biD1gU-26" value="未支付" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
